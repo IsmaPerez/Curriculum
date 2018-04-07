@@ -17,10 +17,15 @@ h1:first-of-type{
     padding-bottom: 20px;
     border-color: black;
     border: 5px dotted grey;
+
 }
 #d1{
     text-align: center;
     padding-top: 20px;
+}
+image{
+    border: 1px solid black;
+    border-radius: 20px;
 }
 h2{
     font-family: dosis,sans-serif;
@@ -30,7 +35,7 @@ h3{
     font-family: dosis,sans-serif;
     text-align: center;
 }
-.datos,.formacion{
+.datos,.formacion,.extra,.aptitudes{
     font-family: anton,sans-serif;
     color: black;
     text-align: center;
@@ -41,12 +46,18 @@ h3{
     border-radius: 50px 5px;
     text-align: center;
     font-family: dosis,sans-serif;
-    margin: auto 50px;
+    margin: auto 100px;
     padding: 50px ;
     border: 5px dotted grey;
+    font-size: 1.5em;
 }
 a{
     color: black;
+}
+em{
+    background-color: #1e4657;
+    border-radius: 5px;
+    border-color: grey;
 }
 a:hover{
     color: black;
@@ -54,7 +65,27 @@ a:hover{
     background-color: whitesmoke;
     text-decoration: none;
 }
-img:nth-of-type(2){
-    width: 50px;
-    height: 50px;
+.c3{
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 5px 50px;
+    text-align: center;
+    font-family: dosis,sans-serif;
+    margin: auto 100px;
+    padding: 50px;
+    border: 5px dotted grey;
+    font-size: 1.5em;
+}
+.c4{
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 5px 50px;
+    text-align: left;
+    font-family: dosis,sans-serif;
+    margin: auto 100px;
+    padding: 50px;
+    border: 5px dotted grey;
+    font-size: 1.5em;
+}
+li{
+   list-style-image: url("Imagenes/lista.png");
+    padding: 30px 0 30px 0;
 }
