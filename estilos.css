@@ -8,13 +8,15 @@ h1:first-of-type{
     font-family: Indie Flower,sans-serif;
     color: gray;
     font-size: 4em;
-    border-bottom: black;
+    border-bottom: 8px dashed grey;
 }
 .c1{
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.25);
     margin: auto 100px;
     border-radius: 5px 50px;
     padding-bottom: 20px;
+    border-color: black;
+    border: 5px dotted grey;
 }
 #d1{
     text-align: center;
@@ -27,4 +29,32 @@ h2{
 h3{
     font-family: dosis,sans-serif;
     text-align: center;
+}
+.datos,.formacion{
+    font-family: anton,sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+.c2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px 5px;
+    text-align: center;
+    font-family: dosis,sans-serif;
+    margin: auto 50px;
+    padding: 50px ;
+    border: 5px dotted grey;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+img:nth-of-type(2){
+    width: 50px;
+    height: 50px;
 }
