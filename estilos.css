@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Dosis|Indie+Flower');
+
+body {
+    background-color: #1e4657;
+}
+h1:first-of-type{
+    text-align: center;
+    font-family: Indie Flower,sans-serif;
+    color: gray;
+    font-size: 4em;
+    border-bottom: black;
+}
+.c1{
+    background-color: rgba(255,255,255,0.5);
+    margin: auto 100px;
+    border-radius: 5px 50px;
+    padding-bottom: 20px;
+}
+#d1{
+    text-align: center;
+    padding-top: 20px;
+}
+h2{
+    font-family: dosis,sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: dosis,sans-serif;
+    text-align: center;
+}
