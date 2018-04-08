@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Dosis|Indie+Flower');
 
 body {
-    background-color: #1e4657;
+    background-color: rgba(15,82,106,0.95);
 }
 h1:first-of-type{
     text-align: center;
@@ -15,7 +15,6 @@ h1:first-of-type{
     margin: auto 100px;
     border-radius: 5px 50px;
     padding-bottom: 20px;
-    border-color: black;
     border: 5px dotted grey;
 
 }
@@ -35,7 +34,7 @@ h3{
     font-family: dosis,sans-serif;
     text-align: center;
 }
-.datos,.formacion,.extra,.aptitudes{
+.datos,.formacion,.extra,.aptitudes,.contactar{
     font-family: anton,sans-serif;
     color: black;
     text-align: center;
@@ -59,12 +58,13 @@ em{
     border-radius: 5px;
     border-color: grey;
 }
-a:hover{
+#alonso:hover,#jorge:hover,#bosco:hover,#arduino:hover{
     color: black;
     border-radius: 5px;
     background-color: whitesmoke;
     text-decoration: none;
 }
+
 .c3{
     background-color: rgba(255,255,255,0.25);
     border-radius: 5px 50px;
@@ -88,4 +88,78 @@ a:hover{
 li{
    list-style-image: url("Imagenes/lista.png");
     padding: 30px 0 30px 0;
+}
+div a{
+    text-decoration: none;
+    background-color: transparent;
+}
+.botones{
+    text-align: center;
+}
+button{
+    font-family: dosis, sans-serif;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color: #1e4657;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 15px;
+    border: none;
+}
+button:hover{
+    background-color: rgba(88,22,106,0.95);
+    color: whitesmoke;
+    border:1px solid rgba(214,208,207,0.25);
+}
+.c5{
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 50px 5px;
+    text-align: left;
+    font-family: dosis,sans-serif;
+    margin: auto 100px;
+    padding: 50px;
+    border: 5px dotted grey;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+[type="checkbox"]{
+    display:none;
+}
+
+[type="checkbox"]+label{
+    display:inline-block;
+    width:30px;
+    height:30px;
+}
+#facebook+label{
+    background-image:url(Imagenes/facebook-off.png);
+}
+#facebook:checked+label{
+    background-image:url(Imagenes/facebook-on.png);
+}
+#twitter+label{
+    background-image:url(Imagenes/twitter-off.png);
+}
+#twitter:checked+label{
+    background-image:url(Imagenes/twitter-on.png);
+}
+
+#google+label{
+    background-image:url(Imagenes/google-off.png);
+}
+#google:checked+label{
+    background-image:url(Imagenes/google-on.png);
+}
+fieldset{
+    margin:auto 100px;
+    border:1px solid rgba(255,255,255,.5);
+
+}
+legend{
+    text-align: center;
+}
+.redes{
+    text-align: center;
+margin: 20px;
 }

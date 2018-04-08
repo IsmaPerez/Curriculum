@@ -10,7 +10,14 @@
 </head>
 <body>
     <h1>Curriculum Vitae WEB</h1>
-    <h1 class="datos">Datos Personales</h1>
+    <section class="botones">
+        <a href="#titulo1"><button>Datos</button></a>
+        <a href="#titulo2"><button>Formación Academica</button></a>
+        <a href="#titulo3"><button>Formación Extra</button></a>
+        <a href="#titulo4"><button>Aptitudes</button></a>
+        <a href="#titulo5"><button>Contactar</button></a>
+    </section>
+    <h1 id="titulo1" class="datos">Datos Personales</h1>
     <section class="c1">
         <div id="d1"><img src="Imagenes/Foto_dni.PNG" alt="Foto Principal"></div>
         <h2>Ismael Pérez de la Fuente</h2>
@@ -19,32 +26,36 @@
         <h3>Telefono: 979752799</h3>
         <h3>Movil: 673213914</h3>
     </section>
-    <h1 class="formacion">Formación Académica</h1>
+    <h1 id="titulo2" class="formacion">Formación Académica</h1>
     <section class="c2">
         <p><strong><em>2009-2013 </em> Educación Secundaria Obligatoria (ESO)</strong> Realizada
         en el centro
-            <a href="http://iesalonsoberruguete.centros.educa.jcyl.es/sitio/">
+            <a id="alonso" href="http://iesalonsoberruguete.centros.educa.jcyl.es/sitio/">
                 Alonso Berruguete (Palencia)
             </a></p><br>
         <p><strong><em>2013-2016 </em>Bachillerato de Ciencias</strong> Realizado en el centro
-            <a href="http://iesjorgemanrique.centros.educa.jcyl.es/sitio/">
+            <a id="jorge" href="http://iesjorgemanrique.centros.educa.jcyl.es/sitio/">
                 Jorge Manrique (Palencia)
             </a></p><br>
         <p><strong><em>Actualmente </em>Administración de Sistemas Informáticos
         en Red (ASIR)</strong> en el centro
-            <a href="http://www.centrodonbosco.es/web/">Don Bosco (Villamuriel de Cerrato)</a>
+            <a id="bosco" href="http://www.centrodonbosco.es/web/">Don Bosco (Villamuriel de Cerrato)</a>
         </p>
     </section>
-    <h1 class="extra">Formacion Extra</h1>
+    <h1 id="titulo3" class="extra">Formacion Extra</h1>
     <section class="c3">
         <p>Programación básica con Arduino</p>
         <p>Manejo de lenguaje SQL para la gestión de Bases de datos y consultas basicas</p>
         <p>Manejo en la creación de páginas web: HTML y CSS (Básico)</p>
         <p>Manejo de Sublime Text</p>
-        <p>Creación de blog para documentar los avances obtenidos en una
-        asignatura del curso actual</p>
+        <p>Manejo de máquinas virtuales con VMWare</p>
+        <p>Practica en la creación de blogs para documentar los avances obtenidos en una
+        asignatura del curso actual:
+            <a target="_blank" id="arduino" href="https://ismaperezbcpalenti.wixsite.com/diarioismaperez">
+                Diario de un aprendiz de Arduino
+            </a></p>
     </section>
-    <h1 class="aptitudes">Aptitudes</h1>
+    <h1 id="titulo4" class="aptitudes">Aptitudes</h1>
     <section class="c4">
         <ol>
             <li>Nivel de inglés medio</li>
@@ -54,6 +65,20 @@
             <li>Movilidad geográfica,dispongo de coche propio</li>
             <li>Disponobilidad en cualquier fecha del año</li>
         </ol>
+    </section>
+    <h1 id="tiutlo5" class="contactar">Contactar</h1>
+    <section class="c5">
+        <fieldset>
+            <legend>Contacto</legend>
+            <div class="redes">
+                <input type="checkbox" name="facebook" id="facebook" value="facebook">
+                <label for="facebook"></label>
+                <input type="checkbox" name="twitter" id="twitter" value="twitter">
+                <label for="twitter"></label>
+                <input type="checkbox" name="google" id="google" value="google">
+                <label for="google"></label>
+            </div>
+        </fieldset>
     </section>
 </body>
 </html>
